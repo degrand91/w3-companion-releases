@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.webp" alt="W3 Companion" width="420"></p>
+
 # W3 Companion: downloads
 
 W3 Companion is a Warcraft III companion app: build orders floating over the
