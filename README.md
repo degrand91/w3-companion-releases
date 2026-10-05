@@ -77,6 +77,11 @@ you play, each dated when it happened.
 
 ## Observer HUD
 
+**In the app**: pick a preset, arrange the panels, set the series score and
+players, and show the HUD on your screen or add it to OBS in one click.
+
+![Observer HUD controls](screenshots/hud-control.jpg)
+
 **Broadcast**: score bar, hero console over the game's bottom panel, and edge
 strips with what each player is training, researching and has lost.
 
