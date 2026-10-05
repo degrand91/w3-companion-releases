@@ -40,6 +40,41 @@ Warcraft III must run in windowed or borderless mode for the overlay to show.
   recap after each fight. It only shows observer data: never anything the game
   hides from a player in their own game.
 
+## Build orders over the game
+
+Your build's steps with their times and food, next to the game, with a timer
+that follows the game clock.
+
+![Build order overlay](screenshots/build-overlay.jpg)
+
+**Builds**: your private builds, filtered by race and matchup; make one by
+hand, or from a replay or a W3Champions match.
+
+![Builds tab](screenshots/builds.jpg)
+
+## Game reports
+
+Any W3Champions match or replay on your computer, from either player's side.
+
+![Reports tab](screenshots/reports.jpg)
+
+A report says what cost the game, with the numbers and a tip for each, and
+compares you with your opponent.
+
+![Game report](screenshots/game-report.jpg)
+
+## Profile and achievements
+
+Strengths and things to work on from your recent games, judged against what
+your rating predicts, with your matchups and maps.
+
+![Profile](screenshots/profile.jpg)
+
+Warcraft-themed achievements, unlocked from your match history and every game
+you play, each dated when it happened.
+
+![Achievements](screenshots/achievements.jpg)
+
 ## Observer HUD
 
 **Broadcast**: score bar, hero console over the game's bottom panel, and edge
@@ -62,4 +97,10 @@ items used and the value advantage over time.
 
 ![End-of-match recap](screenshots/match-recap.jpg)
 
-Screenshots: the app's demo recording over a Warcraft III replay.
+**Fight recap**: after each fight, what each side lost and used, and how the
+fight's value swung.
+
+![Fight recap](screenshots/fight-recap.jpg)
+
+HUD screenshots: the app's demo recording over a Warcraft III replay. App
+screenshots: the real app with a real W3Champions account.
