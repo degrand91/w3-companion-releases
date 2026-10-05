@@ -3,8 +3,9 @@
 # W3 Companion: downloads
 
 W3 Companion is a Warcraft III companion app: build orders floating over the
-game with a clock and global shortcuts, private builds made by hand or from a
-replay, opponent scouting and your own stats.
+game with a clock that follows the game, private builds made by hand or from a
+replay, opponent scouting, game reports, your own stats and achievements, and
+a live observer HUD for casters and streamers.
 
 This repository only hosts the installers and the app's update files. There is
 no code here.
@@ -21,3 +22,44 @@ macOS right-click the app and choose **Open** the first time. Installed copies
 update themselves.
 
 Warcraft III must run in windowed or borderless mode for the overlay to show.
+
+## What it does
+- **Build orders over the game:** a small panel with your build's steps and a
+  timer that follows the game clock, with global shortcuts that work while the
+  game has focus.
+- **Private builds:** write them step by step, or make one from a replay or a
+  W3Champions match.
+- **Opponent card:** your opponent's recent form, records and openers when a
+  game starts.
+- **Game reports:** what cost a game, with numbers and tips, for any replay or
+  W3Champions match, from either player's side.
+- **Profile:** strengths and things to work on, judged on enough games to be
+  more than luck, plus Warcraft-themed achievements.
+- **Observer HUD** (Windows): live panels for observed games and replays, on
+  your screen or as OBS browser sources, with an end-of-match recap and a fight
+  recap after each fight. It only shows observer data: never anything the game
+  hides from a player in their own game.
+
+## Observer HUD
+
+**Broadcast**: score bar, hero console over the game's bottom panel, and edge
+strips with what each player is training, researching and has lost.
+
+![Observer HUD, Broadcast preset](screenshots/hud-broadcast.jpg)
+
+**Clean**: just the score bar and a slim resources strip, for an uncluttered
+stream.
+
+![Observer HUD, Clean preset](screenshots/hud-clean.jpg)
+
+**Analyst**: Broadcast with fuller side columns, for replay reviews and
+coaching.
+
+![Observer HUD, Analyst preset](screenshots/hud-analyst.jpg)
+
+**End-of-match recap**: hero performance, value generated and spent, losses,
+items used and the value advantage over time.
+
+![End-of-match recap](screenshots/match-recap.jpg)
+
+Screenshots: the app's demo recording over a Warcraft III replay.
