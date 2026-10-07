@@ -13,7 +13,8 @@ no code here.
 ## Download the latest version
 - Windows installer: [W3-Companion-Setup.exe](https://github.com/degrand91/w3-companion-releases/releases/latest/download/W3-Companion-Setup.exe)
 - Windows portable (no install): [W3-Companion-Portable.exe](https://github.com/degrand91/w3-companion-releases/releases/latest/download/W3-Companion-Portable.exe)
-- macOS: [W3-Companion.dmg](https://github.com/degrand91/w3-companion-releases/releases/latest/download/W3-Companion.dmg)
+- macOS: not available in the latest versions for now (the last one is on
+  [Releases](https://github.com/degrand91/w3-companion-releases/releases)).
 
 All versions: [Releases](https://github.com/degrand91/w3-companion-releases/releases).
 
@@ -36,9 +37,10 @@ Warcraft III must run in windowed or borderless mode for the overlay to show.
 - **Profile:** strengths and things to work on, judged on enough games to be
   more than luck, plus Warcraft-themed achievements.
 - **Observer HUD** (Windows): live panels for observed games and replays, on
-  your screen or as OBS browser sources, with an end-of-match recap and a fight
-  recap after each fight. It only shows observer data: never anything the game
-  hides from a player in their own game.
+  your screen or as OBS browser sources: presets from a pro top bar to a clean
+  strip, W3Champions player cards, kills and items logs, an end-of-match recap
+  and a fight recap for every fight. It only shows observer data: never
+  anything the game hides from a player in their own game.
 
 ## Build orders over the game
 
@@ -97,13 +99,39 @@ coaching.
 
 ![Observer HUD, Analyst preset](screenshots/hud-analyst.jpg)
 
+**Top bar**: everything along the top, as pro casts lay it out: resources on
+the top edge with the score bar between them, hero cards with inventory,
+spells and damage in each corner, the army and what is training beside them.
+The game's own bottom panel stays clear.
+
+![Observer HUD, Top bar preset](screenshots/hud-topbar.jpg)
+
+**Player cards**: to present the players, from their W3Champions ladder games:
+rating and rank, record and form, how they do against this race, on this map
+and against this opponent, the heroes they open with and how long their games
+last.
+
+![Observer HUD, player cards](screenshots/player-cards.jpg)
+
+**Match stats**: units alive and lost per player, the resource difference
+between the players, a kills log (who killed what, creeps included) and an
+items log (who bought, got, sold or used what).
+
+![Observer HUD, match stats](screenshots/hud-stats.jpg)
+
+On your screen, hover any icon for its details (a hero's hit points, mana,
+experience and damage, a spell's cooldown, an item's charges), and the cursor
+stays visible over the panels.
+
 **End-of-match recap**: hero performance, value generated and spent, losses,
 items used and the value advantage over time.
 
 ![End-of-match recap](screenshots/match-recap.jpg)
 
-**Fight recap**: after each fight, what each side lost and used, and how the
-fight's value swung.
+**Fight recap**: after each fight, the Notifications panel on your screen
+lights up; one click shows the recap, on screen and in OBS: what each side
+lost and used, each hero's damage dealt, taken and healed, and how the fight's
+value swung.
 
 ![Fight recap](screenshots/fight-recap.jpg)
 
