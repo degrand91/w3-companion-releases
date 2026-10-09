@@ -29,6 +29,8 @@ Warcraft III must run in windowed or borderless mode for the overlay to show.
 W3 Companion is free, with no ads and no account. If it helps you play or cast,
 you can support its development on [Ko-fi](https://ko-fi.com/degrandgames).
 
+<a href="https://ko-fi.com/degrandgames"><img src="support_me_on_kofi_dark.png" alt="Support me on Ko-fi" height="40"></a>
+
 ## What it does
 - **Build orders over the game:** a small panel with your build's steps and a
   timer that follows the game clock, with global shortcuts that work while the
