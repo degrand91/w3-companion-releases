@@ -44,8 +44,8 @@ you can support its development on [Ko-fi](https://ko-fi.com/degrandgames).
 - **Profile:** strengths and things to work on, judged on enough games to be
   more than luck, plus Warcraft-themed achievements.
 - **Observer HUD** (Windows): live panels for observed games and replays, on
-  your screen or as OBS browser sources: presets from a pro top bar to a clean
-  strip, W3Champions player cards, kills and items logs, an end-of-match recap
+  your screen or as OBS browser sources: presets for tournaments, showmatches,
+  coaching and analysis, W3Champions player cards, kills and items logs, an end-of-match recap
   and a fight recap for every fight. It only shows observer data: never
   anything the game hides from a player in their own game.
 
@@ -86,27 +86,40 @@ you play, each dated when it happened.
 
 ## Observer HUD
 
-**In the app**: pick a preset, arrange the panels, set the series score and
-players, and show the HUD on your screen or add it to OBS in one click.
+**In the app**: pick a preset by what it is for, arrange the panels (and
+which one is on top), set the series score and players, and choose where the
+HUD shows: in your stream (OBS), just on your screen, or both.
 
 ![Observer HUD controls](screenshots/hud-control.jpg)
 
-**Broadcast**: score bar, hero console over the game's bottom panel, and edge
+**Broadcast** (tournaments and casts): the score bar with the clock, the map
+and your subtitle, the hero console over the game's bottom panel, and edge
 strips with what each player is training, researching and has lost.
 
 ![Observer HUD, Broadcast preset](screenshots/hud-broadcast.jpg)
 
-**Clean**: just the score bar and a slim resources strip, for an uncluttered
-stream.
+**Clean** (simple): just the score bar and a slim resources strip, for an
+uncluttered stream with room for a facecam.
 
 ![Observer HUD, Clean preset](screenshots/hud-clean.jpg)
 
-**Analyst**: Broadcast with fuller side columns, for replay reviews and
-coaching.
+**Coaching** (lessons and replay reviews): what each player trains, researches
+and builds down their edge, and their tech race under the score bar.
 
-![Observer HUD, Analyst preset](screenshots/hud-analyst.jpg)
+![Observer HUD, Coaching preset](screenshots/hud-coaching.jpg)
 
-**Top bar**: everything along the top, as pro casts lay it out: resources on
+**Analysis** (stats and deep dives): head to head, both armies' value, who is
+ahead in gold, lumber and food, and the units alive and lost on each side.
+
+![Observer HUD, Analysis preset](screenshots/hud-analysis.jpg)
+
+**Showmatch** (showmatches and fun streams): everything side by side: head to
+head, the armies' value as a tug of war, the heroes face to face, and the
+kills and items logs.
+
+![Observer HUD, Showmatch preset](screenshots/hud-showmatch.jpg)
+
+**Top bar** (casts, the bottom kept clear): everything along the top, as pro casts lay it out: resources on
 the top edge with the score bar between them, hero cards with inventory,
 spells and damage in each corner, the army and what is training beside them.
 The game's own bottom panel stays clear.
@@ -130,13 +143,14 @@ On your screen, hover any icon for its details (a hero's hit points, mana,
 experience and damage, a spell's cooldown, an item's charges), and the cursor
 stays visible over the panels.
 
-**End-of-match recap**: hero performance, value generated and spent, losses,
-items used and the value advantage over time.
+**End-of-match recap**: hero performance (with each hero's skills, in the
+order they were learned), value generated and spent, losses, items used and
+the value advantage over time.
 
 ![End-of-match recap](screenshots/match-recap.jpg)
 
 **Fight recap**: after each fight, the Notifications panel on your screen
-lights up; one click shows the recap, on screen and in OBS: what each side
+lights up (or open it from the app's Recaps tab); one click shows the recap, on screen and in OBS: what each side
 lost and used, each hero's damage dealt, taken and healed, and how the fight's
 value swung.
 
